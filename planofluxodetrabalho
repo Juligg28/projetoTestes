@@ -1,0 +1,39 @@
+PLANO DE FLUXO DE TRABALHO DE DESENVOLVIMENTO E CICLO DE VIDA DE BUGS PARA A FUNCIONALIDADE DE RASTREAMENTO DE ENTREGA NO ECOMMERCE SWAG LABS COM INTEGRAÇÃO AOS CORREIOS
+
+1 – Definição de Requisitos:
+
+Implementar a funcionalidade de rastreamento de entrega na página específica do e-commerce.
+Permitir que usuários visualizem o status atual e o histórico de rastreamento dos pedidos, incluindo integração com os Correios.
+Enviar notificações automáticas para informar os usuários sobre mudanças no status de entrega, considerando dados dos Correios.
+Armazenar os resultados do rastreamento, incluindo informações dos Correios, no banco de dados do e-commerce.
+Integrar o banco de dados com a ferramenta de análise escolhida para monitoramento de QA.
+2 – Desenvolvimento:
+
+Configurar a classe de conexão para estabelecer a comunicação eficiente com o sistema de rastreamento dos Correios.
+Desenvolver a lógica que utiliza a API de Rastreamento dos Correios para obter e exibir os detalhes de entrega.
+Integrar os dados dos Correios ao sistema de rastreamento e ao banco de dados do e-commerce.
+3 – Testes:
+
+Realizar testes de unidade e integração para verificar a robustez da conexão com o sistema de rastreamento dos Correios.
+Identificar e documentar bugs relacionados à visualização do status de entrega e notificações automáticas, considerando a integração com os Correios.
+Executar testes em cada sprint e assegurar que os bugs sejam corrigidos antes do início da próxima fase.
+4 – Ciclo de Vida do Bug:
+
+Novo (New): Registrar novos bugs identificados durante os testes relacionados ao rastreamento de entrega, incluindo a integração com os Correios.
+Atribuído (Assigned): Avaliar imediatamente e atribuir a um desenvolvedor diferente do identificador inicial.
+Aberto (Open): Iniciar análise e correção do bug.
+Corrigido (Fixed): Concluir a correção do bug.
+Aguardando Reteste (Pending retest): Aguardar novo teste após a correção.
+Reteste (Retest): Realizar teste no sistema corrigido.
+Verificado (Verified): Confirmar que o bug foi corrigido com sucesso.
+Reaberto (Reopen): Reabrir se o bug persistir após a correção.
+Fechado (Closed): Bug corrigido, testado e aprovado.
+Duplicado (Duplicated): Bug já identificado anteriormente.
+Rejeitado (Rejected): Bug não é novo, pode ser considerado débito técnico para ser tratado em sprint futura.
+Adiado (Deferred): Bug identificado com previsão de correção para a próxima sprint.
+Não é um bug (Not a bug): Erro na identificação de bug.
+5 – Implantação do Ambiente de Produção e Monitoramento:
+
+Configurar os filtros de granularidade para os dados de rastreamento, incluindo informações dos Correios.
+Adicionar tags necessárias para cada pedido visando facilitar a monitoramento de QA.
+Implementar ferramentas de monitoramento, como o Google Analytics, para analisar o desempenho do rastreamento de entrega no contexto de QA, considerando a integração com os Correios.
