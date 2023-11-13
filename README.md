@@ -5,7 +5,7 @@ Elaboração de itens conforme projeto Manual de Testes
 
 
 #Arquivos elaborados
-1 - Plano de Testes
-2 - MindMap
-3 - User Stories
-4 - Cenários de Testes
+#1 - Plano de Testes
+#2 - MindMap
+#3 - User Stories
+#4 - Cenários de Testes
