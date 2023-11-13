@@ -1,6 +1,6 @@
 Como usuário, quero poder visualizar o status atual do meu pedido para acompanhar a entrega.
-
 Aceitação: O usuário pode ver o status do pedido na sua conta.
-Como usuário, quero receber notificações automáticas sobre as atualizações do rastreamento de entrega.
 
+
+Como usuário, quero receber notificações automáticas sobre as atualizações do rastreamento de entrega.
 Aceitação: O usuário recebe notificações por e-mail ou no site sobre mudanças no status do pedido.
